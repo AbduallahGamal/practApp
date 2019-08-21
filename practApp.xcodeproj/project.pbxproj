@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A24E9FA230CB7DD005DF744 /* customView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A24E9F9230CB7DD005DF744 /* customView.swift */; };
+		8A24E9FC230CBE1E005DF744 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A24E9FB230CBE1E005DF744 /* signUpViewController.swift */; };
 		8A9FEBB5230C538E00C65828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBB4230C538E00C65828 /* AppDelegate.swift */; };
 		8A9FEBB7230C538E00C65828 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBB6230C538E00C65828 /* ViewController.swift */; };
 		8A9FEBBA230C538E00C65828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9FEBB8230C538E00C65828 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 		8A9FEBC2230C539000C65828 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9FEBC0230C539000C65828 /* LaunchScreen.storyboard */; };
 		8A9FEBCD230C539000C65828 /* practAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBCC230C539000C65828 /* practAppTests.swift */; };
 		8A9FEBD8230C539000C65828 /* practAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBD7230C539000C65828 /* practAppUITests.swift */; };
+		8A9FEBE6230C57F500C65828 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBE5230C57F500C65828 /* GradientView.swift */; };
+		8A9FEBE8230C580B00C65828 /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBE7230C580B00C65828 /* ButtonCustom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8A24E9F9230CB7DD005DF744 /* customView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customView.swift; sourceTree = "<group>"; };
+		8A24E9FB230CBE1E005DF744 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 		8A9FEBB1230C538E00C65828 /* practApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9FEBB4230C538E00C65828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A9FEBB6230C538E00C65828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		8A9FEBD3230C539000C65828 /* practAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9FEBD7230C539000C65828 /* practAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practAppUITests.swift; sourceTree = "<group>"; };
 		8A9FEBD9230C539000C65828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A9FEBE5230C57F500C65828 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		8A9FEBE7230C580B00C65828 /* ButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustom.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 		8A9FEBA8230C538E00C65828 = {
 			isa = PBXGroup;
 			children = (
+				8A24E9FB230CBE1E005DF744 /* signUpViewController.swift */,
+				8A24E9F9230CB7DD005DF744 /* customView.swift */,
+				8A9FEBE7230C580B00C65828 /* ButtonCustom.swift */,
+				8A9FEBE5230C57F500C65828 /* GradientView.swift */,
 				8A9FEBB3230C538E00C65828 /* practApp */,
 				8A9FEBCB230C539000C65828 /* practAppTests */,
 				8A9FEBD6230C539000C65828 /* practAppUITests */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A24E9FC230CBE1E005DF744 /* signUpViewController.swift in Sources */,
 				8A9FEBBD230C538E00C65828 /* practApp.xcdatamodeld in Sources */,
+				8A24E9FA230CB7DD005DF744 /* customView.swift in Sources */,
 				8A9FEBB7230C538E00C65828 /* ViewController.swift in Sources */,
+				8A9FEBE6230C57F500C65828 /* GradientView.swift in Sources */,
+				8A9FEBE8230C580B00C65828 /* ButtonCustom.swift in Sources */,
 				8A9FEBB5230C538E00C65828 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = practApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = practApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
