@@ -11,6 +11,11 @@
 		8A24E9FC230CBE1E005DF744 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A24E9FB230CBE1E005DF744 /* signUpViewController.swift */; };
 		8A2A0166230DF355008D3607 /* UitextField+extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A0165230DF355008D3607 /* UitextField+extention.swift */; };
 		8A53E72B230E8C560086D8F7 /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A53E72A230E8C560086D8F7 /* signInViewController.swift */; };
+		8A53E72D230EA73D0086D8F7 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A53E72C230EA73D0086D8F7 /* TabBarViewController.swift */; };
+		8A53E72F230EAAD00086D8F7 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A53E72E230EAAD00086D8F7 /* UIViewController+Extension.swift */; };
+		8A9C55CC230ED3DA0033C9DD /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C55CB230ED3DA0033C9DD /* homeViewController.swift */; };
+		8A9C55CE230EE1970033C9DD /* ticketPlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C55CD230EE1970033C9DD /* ticketPlaneViewController.swift */; };
+		8A9C55D0230EEE870033C9DD /* customViewInTicketPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C55CF230EEE870033C9DD /* customViewInTicketPlane.swift */; };
 		8A9FEBB5230C538E00C65828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBB4230C538E00C65828 /* AppDelegate.swift */; };
 		8A9FEBB7230C538E00C65828 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBB6230C538E00C65828 /* ViewController.swift */; };
 		8A9FEBBA230C538E00C65828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9FEBB8230C538E00C65828 /* Main.storyboard */; };
@@ -45,6 +50,11 @@
 		8A24E9FB230CBE1E005DF744 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 		8A2A0165230DF355008D3607 /* UitextField+extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UitextField+extention.swift"; sourceTree = "<group>"; };
 		8A53E72A230E8C560086D8F7 /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
+		8A53E72C230EA73D0086D8F7 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		8A53E72E230EAAD00086D8F7 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		8A9C55CB230ED3DA0033C9DD /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		8A9C55CD230EE1970033C9DD /* ticketPlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticketPlaneViewController.swift; sourceTree = "<group>"; };
+		8A9C55CF230EEE870033C9DD /* customViewInTicketPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customViewInTicketPlane.swift; sourceTree = "<group>"; };
 		8A9FEBB1230C538E00C65828 /* practApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9FEBB4230C538E00C65828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A9FEBB6230C538E00C65828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +101,11 @@
 		8A9FEBA8230C538E00C65828 = {
 			isa = PBXGroup;
 			children = (
+				8A9C55CF230EEE870033C9DD /* customViewInTicketPlane.swift */,
+				8A9C55CD230EE1970033C9DD /* ticketPlaneViewController.swift */,
+				8A9C55CB230ED3DA0033C9DD /* homeViewController.swift */,
+				8A53E72E230EAAD00086D8F7 /* UIViewController+Extension.swift */,
+				8A53E72C230EA73D0086D8F7 /* TabBarViewController.swift */,
 				8A53E72A230E8C560086D8F7 /* signInViewController.swift */,
 				8A2A0165230DF355008D3607 /* UitextField+extention.swift */,
 				8A24E9FB230CBE1E005DF744 /* signUpViewController.swift */,
@@ -278,14 +293,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A24E9FC230CBE1E005DF744 /* signUpViewController.swift in Sources */,
+				8A53E72F230EAAD00086D8F7 /* UIViewController+Extension.swift in Sources */,
 				8A9FEBBD230C538E00C65828 /* practApp.xcdatamodeld in Sources */,
 				8A24E9FA230CB7DD005DF744 /* customView.swift in Sources */,
 				8A9FEBB7230C538E00C65828 /* ViewController.swift in Sources */,
 				8A9FEBE6230C57F500C65828 /* GradientView.swift in Sources */,
 				8A9FEBE8230C580B00C65828 /* ButtonCustom.swift in Sources */,
+				8A9C55CC230ED3DA0033C9DD /* homeViewController.swift in Sources */,
+				8A9C55CE230EE1970033C9DD /* ticketPlaneViewController.swift in Sources */,
 				8A2A0166230DF355008D3607 /* UitextField+extention.swift in Sources */,
 				8A53E72B230E8C560086D8F7 /* signInViewController.swift in Sources */,
+				8A53E72D230EA73D0086D8F7 /* TabBarViewController.swift in Sources */,
 				8A9FEBB5230C538E00C65828 /* AppDelegate.swift in Sources */,
+				8A9C55D0230EEE870033C9DD /* customViewInTicketPlane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

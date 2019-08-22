@@ -17,6 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let accessToken = UserDefaults.standard.value(forKey: "accessToken")
+        
+        if accessToken != nil{
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let secondView = storyboard.instantiateViewController(withIdentifier: "TabBarViewController") as! TabBarViewController
+            let appDelegate = UIApplication.shared.delegate as?AppDelegate
+            appDelegate?.window?.rootViewController = secondView
+            appDelegate?.window?.makeKeyAndVisible()
+        }
         return true
     }
 

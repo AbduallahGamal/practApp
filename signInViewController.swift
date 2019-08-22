@@ -20,4 +20,9 @@ class signInViewController: UIViewController {
         txtPassWord.addRightView(image: #imageLiteral(resourceName: "eyee"), isSecure: true)
     }
 
+    @IBAction func onClick(_ sender: Any) {
+        UserDefaults.standard.set("LogedIn", forKey: "accessToken")
+        changeRoot()
+    }
+    
 }
