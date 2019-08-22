@@ -10,8 +10,15 @@ import UIKit
 
 class signUpViewController: UIViewController {
 
+    @IBOutlet weak var txtFullName: UITextField!
+    @IBOutlet weak var txtEmail: UITextField!
+    @IBOutlet weak var txtPassWord: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        txtFullName.addRightView(image: #imageLiteral(resourceName: "user"))
+        txtEmail.addRightView(image: #imageLiteral(resourceName: "email"))
+        txtPassWord.addRightView(image: #imageLiteral(resourceName: "eyee"), isSecure: true)
     }
 }
