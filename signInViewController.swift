@@ -21,7 +21,7 @@ class signInViewController: UIViewController {
     }
 
     @IBAction func onClick(_ sender: Any) {
-        UserDefaults.standard.set("LogedIn", forKey: "accessToken")
+        //UserDefaults.standard.set("LogedIn", forKey: "accessToken")
         changeRoot()
     }
     

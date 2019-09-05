@@ -58,4 +58,10 @@ class ticketPlaneViewController: UIViewController {
         txtPassenger.addleftView(image: #imageLiteral(resourceName: "3383446-128"))
         txtFlighTClass.addleftView(image: #imageLiteral(resourceName: "3387314-128"))
     }
+    
+    @IBAction func onClickSearchResul(_ sender: Any) {
+        let secondView = self.storyboard?.instantiateViewController(withIdentifier: "flightsResultViewController") as! flightsResultViewController
+        self.present(secondView, animated: true, completion: nil)
+    }
+    
 }

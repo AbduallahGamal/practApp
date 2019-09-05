@@ -10,7 +10,7 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate{
 
     var window: UIWindow?
 
@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let accessToken = UserDefaults.standard.value(forKey: "accessToken")
+        /*let accessToken = UserDefaults.standard.value(forKey: "accessToken")
         
         if accessToken != nil{
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let appDelegate = UIApplication.shared.delegate as?AppDelegate
             appDelegate?.window?.rootViewController = secondView
             appDelegate?.window?.makeKeyAndVisible()
-        }
+        } */
         return true
     }
 

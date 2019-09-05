@@ -20,9 +20,11 @@ class customView: UIView{
     }
     
     func setRaduisAndShadow(){
-        layer.cornerRadius = 5
+        layer.cornerRadius = 15
         clipsToBounds = true
         layer.masksToBounds = false
+        layer.borderWidth = 1.2
+        layer.borderColor = UIColor.blue.cgColor
         layer.shadowRadius = 5
         layer.shadowOpacity = 0.5
         layer.shadowOffset = CGSize(width: 3, height: 0)

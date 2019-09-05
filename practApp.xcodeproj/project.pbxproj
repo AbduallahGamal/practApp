@@ -16,6 +16,7 @@
 		8A9C55CC230ED3DA0033C9DD /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C55CB230ED3DA0033C9DD /* homeViewController.swift */; };
 		8A9C55CE230EE1970033C9DD /* ticketPlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C55CD230EE1970033C9DD /* ticketPlaneViewController.swift */; };
 		8A9C55D0230EEE870033C9DD /* customViewInTicketPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C55CF230EEE870033C9DD /* customViewInTicketPlane.swift */; };
+		8A9C55D2230F41800033C9DD /* flightsResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9C55D1230F41800033C9DD /* flightsResultViewController.swift */; };
 		8A9FEBB5230C538E00C65828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBB4230C538E00C65828 /* AppDelegate.swift */; };
 		8A9FEBB7230C538E00C65828 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBB6230C538E00C65828 /* ViewController.swift */; };
 		8A9FEBBA230C538E00C65828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9FEBB8230C538E00C65828 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		8A9FEBD8230C539000C65828 /* practAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBD7230C539000C65828 /* practAppUITests.swift */; };
 		8A9FEBE6230C57F500C65828 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBE5230C57F500C65828 /* GradientView.swift */; };
 		8A9FEBE8230C580B00C65828 /* ButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FEBE7230C580B00C65828 /* ButtonCustom.swift */; };
+		8AF850FE2321969700A24BDC /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF850FD2321969700A24BDC /* ExploreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,7 @@
 		8A9C55CB230ED3DA0033C9DD /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
 		8A9C55CD230EE1970033C9DD /* ticketPlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticketPlaneViewController.swift; sourceTree = "<group>"; };
 		8A9C55CF230EEE870033C9DD /* customViewInTicketPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customViewInTicketPlane.swift; sourceTree = "<group>"; };
+		8A9C55D1230F41800033C9DD /* flightsResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flightsResultViewController.swift; sourceTree = "<group>"; };
 		8A9FEBB1230C538E00C65828 /* practApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9FEBB4230C538E00C65828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A9FEBB6230C538E00C65828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +74,7 @@
 		8A9FEBD9230C539000C65828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A9FEBE5230C57F500C65828 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		8A9FEBE7230C580B00C65828 /* ButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCustom.swift; sourceTree = "<group>"; };
+		8AF850FD2321969700A24BDC /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		8A9FEBA8230C538E00C65828 = {
 			isa = PBXGroup;
 			children = (
+				8AF850FD2321969700A24BDC /* ExploreViewController.swift */,
+				8A9C55D1230F41800033C9DD /* flightsResultViewController.swift */,
 				8A9C55CF230EEE870033C9DD /* customViewInTicketPlane.swift */,
 				8A9C55CD230EE1970033C9DD /* ticketPlaneViewController.swift */,
 				8A9C55CB230ED3DA0033C9DD /* homeViewController.swift */,
@@ -292,9 +298,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A9C55D2230F41800033C9DD /* flightsResultViewController.swift in Sources */,
 				8A24E9FC230CBE1E005DF744 /* signUpViewController.swift in Sources */,
 				8A53E72F230EAAD00086D8F7 /* UIViewController+Extension.swift in Sources */,
 				8A9FEBBD230C538E00C65828 /* practApp.xcdatamodeld in Sources */,
+				8AF850FE2321969700A24BDC /* ExploreViewController.swift in Sources */,
 				8A24E9FA230CB7DD005DF744 /* customView.swift in Sources */,
 				8A9FEBB7230C538E00C65828 /* ViewController.swift in Sources */,
 				8A9FEBE6230C57F500C65828 /* GradientView.swift in Sources */,
